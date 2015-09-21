@@ -10,7 +10,7 @@ var status = process.argv[2];
 
 serialPort.on('open', function(error) {
 	serialPort.on('data', function(data) {
-	    console.log('data received', data);
+	    console.log('data received', new Buffer(data).toString());
 	});
 
 	setTimeout(function(){
