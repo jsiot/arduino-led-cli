@@ -1,0 +1,23 @@
+{
+  "name": "arduino-led-control",
+  "version": "1.0.0",
+  "description": "Control Arduino LED from Node.js CLI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "arduino",
+    "serialport",
+    "led",
+    "iot"
+  ],
+  "author": "Equan Pr.",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "~1.7.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
